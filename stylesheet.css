@@ -1,13 +1,51 @@
-.search{
+#logo{
     
     position: absolute;
-    top: 50%;
+    top: 250px;
     left: 50%;
     transform: translate(-50%, -50%)
     
 }
 
-.search img{
+#logo img{
     width: 265px;
     height: 95px;
+}
+
+#search{
+    position: absolute;
+    top: 320px;
+    left: 650px;
+}
+
+#search input[type="text"]{    
+    border: 1px solid #dcdcdc;
+    width: 620px;
+    /*height: 30px;*/
+    font-size: 20px;
+    font-family: Verdana;
+    transition: box-shadow 0.3s, border 0.3s;
+    
+    padding: 5px;
+    
+    background: url(data:image/gif;base64,R0lGODlhHAAmAKIHAKqqqsvLy0hISObm5vf394uLiwAAAP///yH5BAEAAAcALAAAAAAcACYAAAO9eLpMIMYIQJi9DcYtKv6KtnHgB4yoAZSXKAyDy1rjoAzjzOQLrx8+4OanCAZnxiExGSEKmz3lj2lwUq3SZ3WZPbKuXGgxu9t4tLYDTkpIRQILF0x2G4lWipM7gj/oJQUkcXsCDCIFATULBCIcZ2tvB3QLDxETFnR/BgU/gRt9jX0gnpYMkJZpFzEoqQqJKAIBaQOVKHAXr3t7txgBjboSvB8EpLoFZywOAo3LFE5lYs/QW9LT1TRk1V7S2xYJADs=) no-repeat 605px 7px;
+    background-size: 16px;
+    opacity: 0.6;
+        
+        
+}
+
+#search input[type="text"]:focus,
+#search input[type="text"].focus{
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #969696;
+}
+
+.button{
+    margin: 15px;
+    padding: 7px;
+    border: 1px solid #6d6d6d;
+    font-family: Arial;
+    font-weight: 600;
+    text-decoration:none;
 }
